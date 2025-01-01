@@ -10,7 +10,7 @@ function highlight() {
 function return_normal (){
 	const boldWord = document.querySelectorAll('strong');
 	boldWord.forEach((word) =>{
-		word.style.color = "green";
+		word.style.color = "black";
 	});
 }
 
